@@ -14,16 +14,15 @@ The internal dashboard at `internal.example.com` is up but cannot be reached fro
    ```bash
    dig internal.example.com
    ```
-   (Screenshot: `../screenshots/local_dns_resolution.png`)
+   ![sc1](Screenshot: `../screenshots/local_dns_resolution.png`)
 
 2. **Google DNS:**
    ```bash
    dig @8.8.8.8 internal.example.com
    ```
-   (Screenshot: `../screenshots/google_dns_resolution.png`)
+    ![sc2](Screenshot: `../screenshots/google_dns_resolution.png`)
 
 Compare results to see if your DNS or upstream resolver is misconfigured.  
-(Screenshot: `../screenshots/dns_resolution.png`)
 
 ---
 
@@ -45,7 +44,7 @@ Compare results to see if your DNS or upstream resolver is misconfigured.
    telnet internal.example.com 443
    ```
 
-(Screenshot: `../screenshots/service_reachability.png`)
+![sc3](Screenshot: `../screenshots/service_reachability.png`)
 
 ---
 
