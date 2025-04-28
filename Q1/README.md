@@ -31,11 +31,11 @@ Options can be combined, e.g. `-vn` or `-nv`.
 
 Place your terminal screenshot files in a separate `screenshots/` folder. Below are placeholder references; use actual filenames when adding images:
 
-1. `./Q1/mygrep.sh hello Q1/testfile.txt`  → `find-hello.png`
-2. `./Q1/mygrep.sh -n hello Q1/testfile.txt`  → `find-hello-n.png`
-3. `./Q1/mygrep.sh -vn hello Q1/testfile.txt`  → `invert-n.png`
-4. `./Q1/mygrep.sh -v Q1/testfile.txt`  → `missing-pattern.png`
-
+1. `./Q1/mygrep.sh hello Q1/testfile.txt`
+2. `./Q1/mygrep.sh -n hello Q1/testfile.txt`
+3. `./Q1/mygrep.sh -vn hello Q1/testfile.txt`
+4. `./Q1/mygrep.sh -v Q1/testfile.txt`
+![illustrative screenshot of test commands](screenshots/Q1_sc1.png)
 ## Reflective Section
 
 ### 1. Argument & Option Handling
