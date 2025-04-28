@@ -7,17 +7,17 @@ A simple Bash implementation of basic grep functionality: case-insensitive searc
 1. Clone or download this repository.
 2. Make the script executable:
    ```bash
-   chmod +x Q1/mygrep.sh
+   chmod +x mygrep.sh
    ```
 
 ## Usage
 
 ```bash
-./Q1/mygrep.sh [OPTIONS] PATTERN Q1/testfile.txt
+./mygrep.sh [OPTIONS] PATTERN testfile.txt
 ```
 
 - `PATTERN`: String to search (case-insensitive).
-- `Q1/testfile.txt`: Text file to search.
+- `testfile.txt`: Text file to search.
 
 ### Options
 
@@ -31,10 +31,10 @@ Options can be combined, e.g. `-vn` or `-nv`.
 
 Place your terminal screenshot files in a separate `screenshots/` folder. Below are placeholder references; use actual filenames when adding images:
 
-1. `./Q1/mygrep.sh hello Q1/testfile.txt`
-2. `./Q1/mygrep.sh -n hello Q1/testfile.txt`
-3. `./Q1/mygrep.sh -vn hello Q1/testfile.txt`
-4. `./Q1/mygrep.sh -v Q1/testfile.txt`
+1. `./mygrep.sh hello testfile.txt`
+2. `./mygrep.sh -n hello testfile.txt`
+3. `./mygrep.sh -vn hello testfile.txt`
+4. `./mygrep.sh -v testfile.txt`
 
 ![illustrative screenshot of test commands](../screenshots/Q1_sc1.png)
 ## Reflective Section
