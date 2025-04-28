@@ -35,7 +35,8 @@ Place your terminal screenshot files in a separate `screenshots/` folder. Below 
 2. `./Q1/mygrep.sh -n hello Q1/testfile.txt`
 3. `./Q1/mygrep.sh -vn hello Q1/testfile.txt`
 4. `./Q1/mygrep.sh -v Q1/testfile.txt`
-![illustrative screenshot of test commands](screenshots/Q1_sc1.png)
+
+![illustrative screenshot of test commands](../screenshots/Q1_sc1.png)
 ## Reflective Section
 
 ### 1. Argument & Option Handling
